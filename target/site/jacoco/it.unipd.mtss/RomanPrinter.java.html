@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-<span class="nc" id="L7">public class RomanPrinter {</span>
+<span class="fc" id="L7">public class RomanPrinter {</span>
 
     public static String print(int num) {
 <span class="fc" id="L10">        return printAsciiArt(IntegerToRoman.convert(num));</span>
@@ -33,7 +33,7 @@ package it.unipd.mtss;
     }
 
     private static String[] getAsciiChar(char c) {
-<span class="pc bpc" id="L36" title="5 of 8 branches missed.">        switch (c) {</span>
+<span class="pc bpc" id="L36" title="1 of 8 branches missed.">        switch (c) {</span>
             case 'I':
 <span class="fc" id="L38">                return new String[]{</span>
                     &quot; ___  &quot;,
@@ -59,7 +59,7 @@ package it.unipd.mtss;
                     &quot;/_/\\_\\ &quot;
                 };
             case 'L':
-<span class="nc" id="L62">                return new String[]{</span>
+<span class="fc" id="L62">                return new String[]{</span>
                     &quot; _      &quot;,
                     &quot;| |     &quot;,
                     &quot;| |     &quot;,
@@ -67,7 +67,7 @@ package it.unipd.mtss;
                     &quot;|_____| &quot;
                 };
             case 'C':
-<span class="nc" id="L70">                return new String[]{</span>
+<span class="fc" id="L70">                return new String[]{</span>
                     &quot;  ____  &quot;,
                     &quot; / ___| &quot;,
                     &quot;| |     &quot;,
@@ -75,7 +75,7 @@ package it.unipd.mtss;
                     &quot; \\____| &quot;
                 };
             case 'D':
-<span class="nc" id="L78">                return new String[]{</span>
+<span class="fc" id="L78">                return new String[]{</span>
                     &quot; ____  &quot;,
                     &quot;|  _ \\ &quot;,
                     &quot;| | | |&quot;,
@@ -83,7 +83,7 @@ package it.unipd.mtss;
                     &quot;|____/ &quot;
                 };
             case 'M':
-<span class="nc" id="L86">                return new String[]{</span>
+<span class="fc" id="L86">                return new String[]{</span>
                     &quot; __  __ &quot;,
                     &quot;|  \\/  |&quot;,
                     &quot;| |\\/| |&quot;,
